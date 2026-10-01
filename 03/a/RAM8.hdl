@@ -16,7 +16,7 @@ CHIP RAM8 {
 
     PARTS:
     // Put your code here:
-DMux8Way(
+    DMux8Way(
         in=load,
         sel=address,
         a=load0,
