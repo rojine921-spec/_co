@@ -7,3 +7,38 @@
 // (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 
 // Put your code here.
+
+    // R2 = 0
+    @R2
+    M=0
+
+    // counter = R1
+    @R1
+    D=M
+    @counter
+    M=D
+
+(LOOP)
+    // 如果 counter = 0，結束
+    @counter
+    D=M
+    @END
+    D;JEQ
+
+    // R2 = R2 + R0
+    @R0
+    D=M
+    @R2
+    M=D+M
+
+    // counter = counter - 1
+    @counter
+    M=M-1
+
+    // 回到 LOOP
+    @LOOP
+    0;JMP
+
+(END)
+    @END
+    0;JMP
