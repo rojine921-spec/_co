@@ -63,10 +63,11 @@ CHIP CPU {
         f=instruction[7],
         no=instruction[6],
         out=aluOut,
-        out=outM,
         zr=zr,
         ng=ng
     );
+
+    Or16(a=aluOut, b=false, out=outM);
 
     And(a=instruction[15], b=instruction[3], out=writeM);
 
