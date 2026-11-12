@@ -1,0 +1,25 @@
+// Sum 1 + 2 + ... + 5 into RAM[1]; tests labels and variables
+@5
+D=A
+@n
+M=D
+@sum
+M=0
+(LOOP)
+@n
+D=M
+@END
+D;JEQ
+@sum
+D=M
+@n
+D=D+M
+@sum
+M=D
+@n
+M=M-1
+@LOOP
+0;JMP
+(END)
+@END
+0;JMP
