@@ -1,0 +1,4 @@
+// Result: 7 + 8 = 15 at RAM[256]
+push constant 7
+push constant 8
+add

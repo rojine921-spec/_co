@@ -1,0 +1,5 @@
+function Sys.init 0
+push constant 123
+call Main.double 1
+label END
+goto END
