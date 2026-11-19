@@ -3,7 +3,7 @@
 ## AI 使用聲明
 
 - **使用的 AI 工具**：OpenAI ChatGPT（GPT-6）。
-- **使用方式**：協助理解 nand2tetris Project 6 的 Hack 組譯器規格、撰寫 Python 程式碼、整理 README 說明及設計測試範例。
+- **使用方式**：- **使用方式**：協助理解 nand2tetris 第 7、8 章的 VM Translator 規格、撰寫 JavaScript（Node.js）程式碼、整理 README 說明及設計測試範例。
 - **使用範圍**：本作業的程式與文件有 AI 輔助產生的內容；提交者應自行閱讀程式、執行測試，並對最終提交結果負責。
 
 ## 專案說明
