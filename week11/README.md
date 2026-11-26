@@ -1,4 +1,4 @@
-# 第 11 週：nand2tetris 虛擬機 #16
+# 第 11 週：nand2tetris 虛擬機 (第 7、8 章)
 
 ## AI 使用聲明
 
