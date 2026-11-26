@@ -1,4 +1,9 @@
-# 第12週：Jack 語言編譯器（Jack Compiler）
+# 第12週：Jack 語言編譯器（Jack Compiler）(第 11 章)
+
+## AI 使用聲明
+
+本作業使用 ChatGPT 協助撰寫 Jack 編譯器、自動化測試程式、排除路徑問題及整理 README 文件，並由本人在 VS Code 中實際執行編譯測試。
+
 
 ## 作業目的
 
@@ -39,7 +44,3 @@ Runtime correctness must be checked in VM Emulator.
 ```
 
 全部 11 個 Jack 檔案皆成功編譯，編譯成功率為 100%。此結果僅代表編譯成功，尚未透過 VM Emulator 驗證實際執行的正確性。
-
-## AI 使用聲明
-
-本作業使用 ChatGPT 協助撰寫 Jack 編譯器、自動化測試程式、排除路徑問題及整理 README 文件，並由本人在 VS Code 中實際執行編譯測試。
