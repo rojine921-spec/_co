@@ -1,5 +1,5 @@
 
-# 第十週：nand2tetris Hack 組譯器（Project 6）
+# 第十週：nand2tetris Hack 組譯器（第 6 章）
 
 ## AI 使用聲明
 
